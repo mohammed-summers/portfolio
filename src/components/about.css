@@ -1,0 +1,73 @@
+.about {
+  height: 100vh;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+}
+/* --------------------- */
+
+.about-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.about-title {
+  font-weight: 400;
+}
+
+.about-sub {
+  margin: 20px 0;
+}
+
+.about-exp {
+  font-weight: 300;
+}
+
+.skills {
+  padding: 20px 0;
+  height: 40%;
+  /* background: blue; */
+}
+.skills h1 {
+  padding: 20px 0;
+}
+
+.icons {
+  font-size: 80px;
+  color: #0f52ba;
+  display: flex;
+  justify-content: space-around;
+}
+/* ------------------------------ */
+.about-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.about-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background: #0f52ba;
+}
+
+.about-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
