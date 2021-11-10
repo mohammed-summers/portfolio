@@ -1,5 +1,5 @@
 import "./about.css";
-import Me from "../img/mk.jpeg";
+import Me from "../../img/mk.jpeg";
 
 import React from "react";
 

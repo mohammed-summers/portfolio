@@ -1,0 +1,55 @@
+.project-item {
+  width: 30%;
+  height: 60vh;
+  margin: 20px 10px;
+  border: 2px solid #0f52ba;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.project-browser {
+  height: 20px;
+  background: #0f52ba;
+  display: flex;
+  align-items: center;
+}
+
+.project-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background: #fff;
+}
+
+.project-container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.project-link {
+  height: 60%;
+  background-color: black;
+}
+
+.project-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 20px 0 5px 0;
+}
+
+.project-desc {
+  font-size: 15px;
+  margin: 0;
+}
